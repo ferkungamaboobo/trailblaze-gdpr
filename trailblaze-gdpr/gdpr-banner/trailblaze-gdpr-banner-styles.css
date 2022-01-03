@@ -1,0 +1,29 @@
+#gdpr { position:sticky; bottom:0; z-index:3; box-sizing:initial; height:4rem; padding:1.25rem .625rem .625rem; background-color:var(--e-global-color-primary, black); border-top:.25rem var(--e-global-color-accent, #DDD) solid}
+#gdpr > div { display:flex; align-items:center; gap:.625rem; justify-content:space-between; max-width:1120px; margin:0 auto; }
+#gdpr h2 { flex:1; margin:.5rem 0 1rem; color:var(--e-global-color-accent, #DDD); }
+#gdpr h2>span { font-size:.875em; }
+#gdpr div>div { padding:.5rem 0 1rem; }
+#gdpr div>div>button:first-child { margin-right:1.25rem }
+
+@media only screen and (max-width: 1024px) {
+	#gdpr { padding:1.25rem 2.125rem .625rem; }
+	#gdpr > div { max-width:1024px; }
+}
+@media only screen and (max-width: 921px) {
+	#gdpr h2>span { font-size:.75em; }
+}
+@media only screen and (max-width: 846px) {
+	#gdpr h2>span { font-size:.625em; }
+}
+
+@media only screen and (max-width: 767px) {
+	#gdpr { padding:1.25rem 1.5625rem .625rem; }
+	#gdpr h2>span { font-size:.875em; }
+}
+@media only screen and (max-width: 658px) {
+	#gdpr { padding: .625rem 1.5625rem; }
+	#gdpr div > div, #gdpr h2 { padding:0; margin:0; }
+}
+@media only screen and (max-width: 384px) {
+	#gdpr h2>span { font-size:.75em; }
+}
