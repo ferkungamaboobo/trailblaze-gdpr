@@ -18,7 +18,7 @@ This is a plugin to help the team at [Trailblaze Marketing](https://www.trailbla
 
 Without changes, it can do the following:
 * Adds a pre-styled GDPR Cookie Consent banner that meets the requirement to provide explicit consent before tracking.
- * This sets a consent cookie via javascript that sends a Google Tag Manager data layer event to enable 
+  * This sets a consent cookie via javascript that sends a Google Tag Manager data layer event to enable 
 * Installs Google Tag Manager with the ad storage consents denied by default.
 * Adds an action to GravityForms to delete the submission from the entries database when the consent cookie is not set
 
