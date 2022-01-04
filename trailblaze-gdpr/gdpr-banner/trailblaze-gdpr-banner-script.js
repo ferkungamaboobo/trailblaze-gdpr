@@ -88,8 +88,8 @@ function getGtmUserIDCookie() {
 function yesCookieSet() {
 	if (document.cookie.split(';').some((item) => item.trim().startsWith('consentYes='))) {
 		removeBanner(gdprBanner);
-		gtagConsentGranted();
 		getGtmUserIDCookie()
+		gtagConsentGranted();
 		console.log('Yes Granted: '+document.cookie);
 	}
 }
@@ -97,9 +97,9 @@ function gdprBannerButtonEvents(yes,no){
 	yes.addEventListener('click', event => {
 		console.log('Yes');
 		removeBanner(gdprBanner);
+		setGtmUserIDCookie();
 		gtagConsentGranted();
 		setYesCookie()
-		setGtmUserIDCookie();
 	});
 	no.addEventListener('click', event => {
 		console.log('No');
