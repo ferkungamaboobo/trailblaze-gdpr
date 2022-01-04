@@ -29,7 +29,7 @@ function tb_gdpr_register_settings(){
 	register_setting( 'trailblaze_gdpr_options', 'use_gravity_forms_integration');
 	
     add_settings_section( 'gdpr_banner', 'GDPR Banner Settings', 'use_gdpr_banner_infotext', 'trailblaze_gdpr' );
-    add_settings_field( 'use_gdpr_banner_field', 'Enabled GDPR Banner', 'use_gdpr_banner_field_input', 'trailblaze_gdpr', 'gdpr_banner' );	
+    add_settings_field( 'use_gdpr_banner_field', 'Enable GDPR Banner', 'use_gdpr_banner_field_input', 'trailblaze_gdpr', 'gdpr_banner' );	
     add_settings_section( 'google_tag_manager_integration', 'Google Tag Manager Settings', 'use_google_tag_manager_integration_infotext', 'trailblaze_gdpr' );
     add_settings_field( 'use_google_tag_manager_integration_field', 'Enable GTM Integration', 'use_google_tag_manager_integration_field_input', 'trailblaze_gdpr', 'google_tag_manager_integration' );	
 	add_settings_field( 'google_tag_manager_container_id_field', 'GTM Container ID', 'google_tag_manager_container_id_field_input', 'trailblaze_gdpr', 'google_tag_manager_integration' );	
