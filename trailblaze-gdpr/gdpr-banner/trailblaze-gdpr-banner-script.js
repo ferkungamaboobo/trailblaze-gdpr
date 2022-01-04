@@ -26,6 +26,7 @@ function gtagConsentGranted() {
 	console.log('Ads Data Redaction Set to False');
 	dataLayer.push({'event': 'consent_granted'});
 }
+//clearAllCookies() from https://stackoverflow.com/a/33366171
 function clearAllCookies() {
 	var cookies = document.cookie.split('; ');
     for (var c = 0; c < cookies.length; c++) {
