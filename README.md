@@ -28,18 +28,18 @@ Without changes, it can do the following:
 1. Activate the plugin from the Plugins tab.
 
 ### Additional Installation Steps
-Configuring Google Tag Manager is covered in the the (GitHub Wiki)[https://github.com/ferkungamaboobo/trailblaze-gdpr/wiki].
+Configuring Google Tag Manager is covered in the the [GitHub Wiki](https://github.com/ferkungamaboobo/trailblaze-gdpr/wiki).
 
-To encrypt user data for the GravityForms entries, there is a paid plugin: (Gravity Forms Encrupted Fields)[https://codecanyon.net/item/gravity-forms-encrypted-fields/18564931].
+To encrypt user data for the GravityForms entries, there is a paid plugin: [Gravity Forms Encrupted Fields](https://codecanyon.net/item/gravity-forms-encrypted-fields/18564931).
 
 ## Frequently Asked Questions
 
 ### What is in the pipeline to be created, fixed, or changed in the main plugin files? 
 
-Check the (GitHub Issues)[https://github.com/ferkungamaboobo/trailblaze-gdpr/issues] for the plugin to see if it's being addressed. Feel free to add to the issues or make a pull request to work on it yourself!
+Check the [GitHub Issues](https://github.com/ferkungamaboobo/trailblaze-gdpr/issues) for the plugin to see if it's being addressed. Feel free to add to the issues or make a pull request to work on it yourself!
 
 ### Where would I learn about a given feature?
-Check the (GitHub Wiki)[https://github.com/ferkungamaboobo/trailblaze-gdpr/wiki] for the plugin.
+Check the [GitHub Wiki](https://github.com/ferkungamaboobo/trailblaze-gdpr/wiki) for the plugin.
 
 ## Changelog
-The full changelog without version numbers can be seen at the (GitHub History)[https://github.com/ferkungamaboobo/trailblaze-gdpr/commits/main] for the plugin.
+The full changelog without version numbers can be seen at the [GitHub History](https://github.com/ferkungamaboobo/trailblaze-gdpr/commits/main) for the plugin.
