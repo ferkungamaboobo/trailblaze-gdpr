@@ -34,7 +34,7 @@ function tb_gdpr_register_settings(){
     add_settings_field( 'use_google_tag_manager_integration_field', 'Enable GTM Integration', 'use_google_tag_manager_integration_field_input', 'trailblaze_gdpr', 'google_tag_manager_integration' );	
 	add_settings_field( 'google_tag_manager_container_id_field', 'GTM Container ID', 'google_tag_manager_container_id_field_input', 'trailblaze_gdpr', 'google_tag_manager_integration' );	
     add_settings_section( 'gravity_forms_integration', 'Gravity Forms Settings', 'use_gravity_forms_integration_infotext', 'trailblaze_gdpr' );
-    add_settings_field( 'use_gravity_forms_integration_field', 'Enabled Gravity Forms Database Deletion', 'use_gravity_forms_integration_field_input', 'trailblaze_gdpr', 'gravity_forms_integration' );	
+    add_settings_field( 'use_gravity_forms_integration_field', 'Enable Gravity Forms Database Deletion', 'use_gravity_forms_integration_field_input', 'trailblaze_gdpr', 'gravity_forms_integration' );	
 }
 
 function use_gdpr_banner_infotext() { echo 'This enables the GDPR banner on your site'; }
