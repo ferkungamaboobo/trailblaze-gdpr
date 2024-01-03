@@ -16,6 +16,8 @@ function gtagConsentDefault() {
 function gtagConsentGranted() {
 	gtag('consent', 'update', {
 		'ad_storage': 'granted',
+		'ad_user_data': 'granted',
+		'ad_personalization': 'granted',
 		'analytics_storage': 'granted',
 		'functionality_storage': 'granted',
 		'personalization_storage': 'granted',
