@@ -8,6 +8,8 @@ function gtm_head_code(){
 	echo "	// Default ad_storage to 'denied'.\r\n";
 	echo "	gtag('consent', 'default', {\r\n";
 	echo "		'ad_storage': 'denied',\r\n";
+	echo "		'ad_user_data': 'denied',\r\n";
+	echo "		'ad_personalization': 'denied',\r\n";
 	echo "		'analytics_storage': 'denied',\r\n";
 	echo "		'functionality_storage': 'denied',\r\n";
 	echo "		'personalization_storage': 'denied',\r\n";
