@@ -4,8 +4,8 @@ Plugin Name: GDPR Compliance
 Plugin URI: https://www.trailblaze.marketing
 Description: Alpha build of Trailblaze Marketing GDPR Compliance. Includes integrations with Gravity Forms and Tag Manager
 Version: 0.0.01
-Author: Doug R Thomas
-Author URI: https://ferkungamaboobo.com
+Author: Reid Thomas
+Author URI: https://magniventris.com
 License: proprietary
 License URI: proprietary
 Text Domain: none
